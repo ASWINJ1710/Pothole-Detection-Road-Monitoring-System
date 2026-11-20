@@ -1,0 +1,35 @@
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Model cache
+.cache/
+huggingface/
+*.onnx
+
+# Temporary files
+*.tmp
+*.log
+temp/
+tmp/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
+# Generated output files
+outputs/*
+!outputs/.gitkeep

@@ -1,0 +1,94 @@
+
+.stApp {
+    background: #0F172A;
+    color: #F8FAFC;
+}
+
+header[data-testid="stHeader"] {
+    background: #0F172A;
+}
+
+.block-container {
+    padding-top: 2rem;
+    max-width: 1500px;
+}
+
+section[data-testid="stSidebar"] {
+    background: #080D1B;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #F8FAFC;
+}
+
+h1, h2, h3, h4 {
+    color: #F8FAFC;
+    font-weight: 700;
+}
+
+p, label, span {
+    color: inherit;
+}
+
+div[data-testid="stMetric"] {
+    background: #1E293B;
+    border: 1px solid #334155;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+div[data-testid="stMetricLabel"] {
+    color: #94A3B8;
+}
+
+div[data-testid="stMetricValue"] {
+    color: #F8FAFC;
+    font-weight: 700;
+}
+
+.stButton > button {
+    background: #F97316;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.stButton > button:hover {
+    background: #EA580C;
+    color: #FFFFFF;
+}
+
+div[data-testid="stFileUploader"] {
+    background: #1E293B;
+    border: 1px solid #334155;
+    border-radius: 14px;
+    padding: 15px;
+}
+
+div[data-testid="stDataFrame"] {
+    border: 1px solid #334155;
+    border-radius: 12px;
+}
+
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background: #1E293B;
+    border-radius: 16px;
+}
+
+.stProgress > div > div {
+    background: #F97316;
+}
+
+.good-status {
+    color: #22C55E;
+}
+
+.moderate-status {
+    color: #EAB308;
+}
+
+.bad-status {
+    color: #EF4444;
+}
